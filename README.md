@@ -11,3 +11,17 @@ Run the following command in your terminal to see the program draw the night tra
 ```
 python scheme.py contest.scm --turtle-save-path output
 ```
+
+## Troubleshooting:
+
+If the above command doesn't work, try this one
+
+```
+python scheme contest.scm --pillow-turtle --turtle-save-path output
+```
+
+If the previous command didn't work, you might need to install the abstract-turtle package on your system. Run the following snippet in your terminal
+
+```
+pip install abstract-turtle
+```
